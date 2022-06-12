@@ -1,0 +1,15 @@
+.offers {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+
+  .offerWrapper {
+    margin: 5px 10px;
+  }
+
+  .spinner {
+    margin: 0 auto;
+    justify-self: center;
+  }
+}

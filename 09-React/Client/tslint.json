@@ -1,0 +1,39 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint-microsoft-contrib"
+    ],
+    "jsRules": {},
+    "rules": {
+      "quotemark": [true, "single"],
+      "no-unused-variable": true,
+      "prefer-for-of": true,
+      "typedef": [false, "arrow-parameter"],
+      "no-relative-imports": false,
+      "no-import-side-effect": false,
+      "no-any": false,
+      "no-void-expression": false,
+      "linebreak-style": [false],
+      "variable-name" : false,
+      "no-submodule-imports": false,
+      "ordered-imports": false,
+      "import-name": false,
+      "completed-docs": false,
+      "no-unsafe-any": false,
+      "match-default-export-name": false,
+      "no-unnecessary-local-variable": false,
+      "no-floating-promises": false,
+      "use-simple-attributes": false,
+      "no-restricted-globals": false,
+      "max-func-body-length": false,
+      "no-reserved-keywords": false,
+      "eofline": false,
+      "align": false,
+      "react-this-binding-issue": false,
+      "strict-boolean-expressions": false,
+      "export-name": false,
+      "cyclomatic-complexity": false,
+      "react-a11y-anchors": false
+    },
+    "rulesDirectory": ["node_modules/tslint-microsoft-contrib"]
+}

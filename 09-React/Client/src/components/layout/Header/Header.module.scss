@@ -1,0 +1,51 @@
+@import "../../../shared/variables.scss";
+
+.header {
+  background-color: $secondary-color;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  .mainNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    li {
+      list-style-type: none;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .userNav {
+    display: flex;
+
+    li {
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      span {
+        color: $primary-color;
+      }
+
+      .logout {
+        cursor: pointer;
+      }
+    }
+  }
+}
